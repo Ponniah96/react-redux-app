@@ -1,0 +1,110 @@
+.employee-details{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  color: white;
+}
+
+.employee-details-header{
+    background-color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.employee-details-menus{
+    margin: 30px 20px;    
+}
+
+.employee-details-menus-button{
+    padding: 15px 20px;
+    background-color: black;
+    border-radius: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.employee-details-table-section{
+    margin: 30px 20px;
+}
+
+.employee-details-table{
+    width: 100%;
+}
+
+
+.employee-details-table-head,
+.employee-details-table-body{
+    text-align: left;
+    height: 50px;
+}
+
+.employee-details-table-head{
+    background-color: black;
+}
+
+.employee-details-table-body:hover{
+    opacity: 0.6;
+}
+
+.employee-details-table-link{
+    color: white;
+    text-decoration: underline;
+}
+
+.popup-section{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0px;
+    background: white;
+    z-index: 10000;
+}
+
+.popup-background{
+    background-color: white;
+}
+
+.popup-body{
+    width: 600px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    box-shadow: 0px 5px 10px #d0d0d0;
+    background-color: #282c34;
+    color: white;
+    padding: 50px;
+    z-index: 10000;
+}
+
+.popup-body-header{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    padding: 15px 0px;
+}
+
+.w-25{
+    flex: 4;
+}
+
+.w-75{
+    flex: 8;
+}
+
+.popup-body-submit{
+    padding: 15px 20px;
+    border-radius: 40px;
+}
+
+.submit{
+    align-items: center;
+    justify-content: center
+}

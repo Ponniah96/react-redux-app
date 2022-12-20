@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Project Requirements - CRUD Operation of Employment Details Add, Delete ,UPdate exisiting List
+
+### Create New Folder and wil add js and css filename employment details
+
+### dependency as of now not required
+
+### homescreen will contain employee details as tables along with delete functionality
+
+### add record launch new screen and it has basic details as foerm elements and we need to restore the data into employee details
