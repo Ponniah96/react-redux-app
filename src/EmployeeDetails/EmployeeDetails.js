@@ -72,7 +72,7 @@ export default class EmployeeDetails extends Component{
         return(
             <div>
                 <div className="employee-details">
-                    <div className="employee-details-header">Welcome to Atmosol Employee Details Screen</div>
+                    <div className="employee-details-header">Welcome to React Redux CRUD Operation</div>
                     <div className="employee-details-menus"><button className="employee-details-menus-button" onClick={this.showPopup.bind(this)}>Add Employee Details</button></div>
                     <div className="employee-details-table-section">
                         <table className="employee-details-table">
