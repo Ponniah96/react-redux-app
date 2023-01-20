@@ -74,6 +74,7 @@ export default class AddEmployeeDetails extends Component{
                         </div>
                         <div className="row submit">
                             <input className="popup-body-submit" type="submit" onChange={this.submit.bind(this)} value="Submit"/>
+                            <input className="popup-body-submit" type="button" onClick={this.props.closePopup} value="Close"/>
                         </div>
                     </form>
                 </div>

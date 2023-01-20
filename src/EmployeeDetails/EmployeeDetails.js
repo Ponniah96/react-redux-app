@@ -58,6 +58,10 @@ export default class EmployeeDetails extends Component{
         console.log(this.state.employeeData.length);
     }
 
+    closePopup(){
+        this.setState({showPopup:false})
+    }
+
     AddNewEmployeeRecord(e){
         console.log(e);
         const newArray=e;
@@ -102,7 +106,7 @@ export default class EmployeeDetails extends Component{
                         </table>
                     </div>
                 </div>   
-                {this.state.showPopup && <AddEmployeeDetails id={this.state.employeeData.length} AddNewEmployeeRecord={this.AddNewEmployeeRecord.bind(this)}/>} 
+                {this.state.showPopup && <AddEmployeeDetails id={this.state.employeeData.length} AddNewEmployeeRecord={this.AddNewEmployeeRecord.bind(this)} closePopup={this.closePopup.bind(this)}/>} 
             </div>
                     
         )
