@@ -1,15 +1,25 @@
 {
   "files": {
     "main.css": "/react-redux-app/static/css/main.5473474d.css",
-    "main.js": "/react-redux-app/static/js/main.55d93c24.js",
+    "main.js": "/react-redux-app/static/js/main.f386b1ad.js",
     "static/js/787.c4b4d841.chunk.js": "/react-redux-app/static/js/787.c4b4d841.chunk.js",
+    "static/media/ReduxDataFlowDiagram.gif": "/react-redux-app/static/media/ReduxDataFlowDiagram.49fa8c3968371d9ef6f2.gif",
+    "static/media/dispatchSyntax.PNG": "/react-redux-app/static/media/dispatchSyntax.4a63ec8378b87bc95655.PNG",
+    "static/media/storeSyntax.PNG": "/react-redux-app/static/media/storeSyntax.5e84591caaf88a85bed6.PNG",
+    "static/media/bindActionCreators.PNG": "/react-redux-app/static/media/bindActionCreators.12725371b934919c6871.PNG",
+    "static/media/mapStatetoProps.PNG": "/react-redux-app/static/media/mapStatetoProps.8f90df874fb854e576a9.PNG",
+    "static/media/mapDispatchtoProps.PNG": "/react-redux-app/static/media/mapDispatchtoProps.ebfb2a1b3442efdf677c.PNG",
+    "static/media/mapDispatchtoPropsFunction.PNG": "/react-redux-app/static/media/mapDispatchtoPropsFunction.849296f99a5d84643f3c.PNG",
+    "static/media/reducerSyntax.PNG": "/react-redux-app/static/media/reducerSyntax.94726a5990065eb41a08.PNG",
+    "static/media/actionSyntax.PNG": "/react-redux-app/static/media/actionSyntax.78b38e67d25e34595520.PNG",
+    "static/media/selectorSyntax.PNG": "/react-redux-app/static/media/selectorSyntax.03d99f2b96f7e24833b2.PNG",
     "index.html": "/react-redux-app/index.html",
     "main.5473474d.css.map": "/react-redux-app/static/css/main.5473474d.css.map",
-    "main.55d93c24.js.map": "/react-redux-app/static/js/main.55d93c24.js.map",
+    "main.f386b1ad.js.map": "/react-redux-app/static/js/main.f386b1ad.js.map",
     "787.c4b4d841.chunk.js.map": "/react-redux-app/static/js/787.c4b4d841.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5473474d.css",
-    "static/js/main.55d93c24.js"
+    "static/js/main.f386b1ad.js"
   ]
 }
