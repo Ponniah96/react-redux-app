@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/react-redux-app/static/css/main.5473474d.css",
-    "main.js": "/react-redux-app/static/js/main.f386b1ad.js",
-    "static/js/787.c4b4d841.chunk.js": "/react-redux-app/static/js/787.c4b4d841.chunk.js",
+    "main.css": "/react-redux-app/static/css/main.9d7d0dd0.css",
+    "main.js": "/react-redux-app/static/js/main.2162872b.js",
     "static/media/ReduxDataFlowDiagram.gif": "/react-redux-app/static/media/ReduxDataFlowDiagram.49fa8c3968371d9ef6f2.gif",
     "static/media/dispatchSyntax.PNG": "/react-redux-app/static/media/dispatchSyntax.4a63ec8378b87bc95655.PNG",
     "static/media/storeSyntax.PNG": "/react-redux-app/static/media/storeSyntax.5e84591caaf88a85bed6.PNG",
@@ -14,12 +13,11 @@
     "static/media/actionSyntax.PNG": "/react-redux-app/static/media/actionSyntax.78b38e67d25e34595520.PNG",
     "static/media/selectorSyntax.PNG": "/react-redux-app/static/media/selectorSyntax.03d99f2b96f7e24833b2.PNG",
     "index.html": "/react-redux-app/index.html",
-    "main.5473474d.css.map": "/react-redux-app/static/css/main.5473474d.css.map",
-    "main.f386b1ad.js.map": "/react-redux-app/static/js/main.f386b1ad.js.map",
-    "787.c4b4d841.chunk.js.map": "/react-redux-app/static/js/787.c4b4d841.chunk.js.map"
+    "main.9d7d0dd0.css.map": "/react-redux-app/static/css/main.9d7d0dd0.css.map",
+    "main.2162872b.js.map": "/react-redux-app/static/js/main.2162872b.js.map"
   },
   "entrypoints": [
-    "static/css/main.5473474d.css",
-    "static/js/main.f386b1ad.js"
+    "static/css/main.9d7d0dd0.css",
+    "static/js/main.2162872b.js"
   ]
 }
