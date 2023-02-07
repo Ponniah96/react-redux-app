@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/*** App Basic Themes Starts **/
+.app{
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: white;
   }
+/*** App Basic Themes Ends **/
+
+/*** Header Layout Changes starts **/
+.header{
+    position: sticky;
+    top: 0;
+    background-color: black;
+    width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header h1{
+    text-align: center;
+}
+/*** Header Layout Changes Ends **/
+
+
+/***Top Nav Bar changes starts **/
+.top-nav-bar{
+    width: 100%;
+    /* background: lightgray; */
 }
 
-.App-link {
-  color: #61dafb;
+.top-nav-bar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.top-nav-bar ul li:hover{
+    background: grey;
 }
+
+.top-nav-bar ul li .top-nav-bar-links{
+    text-decoration: none;
+    color: #999999;
+    font-weight: 600;
+}
+
+.top-nav-bar ul li:hover .top-nav-bar-links{
+ color: white;
+
+}
+
+.top-nav-dropdown{
+    position: absolute;
+    box-shadow: 0 0 4px 2px(0,0,0.05);
+    border: 1px solid #d0d0d0;
+    background: white;
+    border-radius: 4px;
+}
+
+.top-nav-dropdown .top-nav-dropdown-links{
+    display: block;
+    padding: 10px 20px;
+    color: grey !important;
+    text-decoration: none;
+}
+
+.top-nav-dropdown .top-nav-dropdown-links:hover{
+    background: lightgray;
+    color: white  !important;
+}
+
+.top-nav-bar ul li:hover .top-nav-dropdown{
+    display: block !important;
+}
+/***Top Nav Bar changes Ends **/

@@ -20,6 +20,7 @@ export default function ReduxBasics(){
     },[])
     return(
         <>
+            <h1>Welcome to Redux Tutorial</h1>
             <h3>Redux Introduction</h3>
             <dl>
                 <dt><b>Definition</b></dt>
@@ -125,13 +126,6 @@ export default function ReduxBasics(){
                     </ul>
                 </dd>
             </dl>
-            {/* <p>Redux
-
-
-
-bindActionCreators	- It is used to connect all functions to simplify dispatch actions.
-
-`			` const bindFunctions= bindActionCreators=()=>{{increment(),decrement()}, dispatch}</p> */}
             <EmployeeDetails />
         </>
     )
