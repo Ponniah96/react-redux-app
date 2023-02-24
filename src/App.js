@@ -5,6 +5,7 @@ import store from "./store";
 import ReduxBasics from "./Basics/basics";
 import HelloWorld from "./reduxExamples/1.Introduction/1.HelloWorld";
 import PersonalDetails from "./reduxExamples/1.Introduction/2.DataTypes";
+import EmployeeDetails from "./EmployeeDetails/EmployeeDetails";
 export default function App(){
     return(
         <Provider store={store}>
@@ -18,10 +19,16 @@ export default function App(){
                                     <Link className="top-nav-bar-links" to="/react-redux-app">Home</Link>
                                 </li>
                                 <li>
-                                    <a className="top-nav-bar-links" onClick={(e)=>e.preventDefault()}>Basic Examples</a>
+                                    <a className="top-nav-bar-links">Basic Examples</a>
                                     <div className="top-nav-dropdown"  style={{"display":"none"}}>
                                         <Link className="top-nav-dropdown-links" to="/hello-world">Hello World</Link>
                                         <Link className="top-nav-dropdown-links" to="/personal-details">Personal Details</Link>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a className="top-nav-bar-links" href="javascript:void(0)">Advanced Examples</a>
+                                    <div className="top-nav-dropdown"  style={{"display":"none"}}>
+                                        <Link className="top-nav-dropdown-links" to="/crud-operation">CRUD Operation</Link>
                                     </div>
                                 </li>
                             </ul>
@@ -32,6 +39,7 @@ export default function App(){
                             <Route exact path="/react-redux-app" element={<ReduxBasics />}></Route>
                             <Route path="/hello-world" element={<HelloWorld/>}></Route>
                             <Route path="/personal-details" element={<PersonalDetails/>}></Route>
+                            <Route path="/crud-operation" element={<EmployeeDetails/>}></Route>
                         </Routes>
                     </div> 
                 </BrowserRouter>
