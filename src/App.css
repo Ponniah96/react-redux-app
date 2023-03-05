@@ -74,3 +74,36 @@
     display: block !important;
 }
 /***Top Nav Bar changes Ends **/
+
+.flex-body{
+display: flex;
+/* padding-right: 100px; */
+}
+
+.flex-left-content{
+flex: 40%;
+}
+
+.flex-right-content{
+flex: 40%;
+position: relative;
+}
+
+@media(max-width:768px){
+.flex-body{
+    flex-wrap: wrap;
+    padding-right: 0px;
+}
+.flex-left-content,
+.flex-right-content{
+    flex:100%;
+}
+}
+
+.copy-icon{
+position: absolute;
+top: 18px;
+right: 0px;
+border: 1px solid white;
+background-color: white;
+}
