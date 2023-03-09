@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import EmployeeDetails from "../EmployeeDetails/EmployeeDetails";
+import "../App.css"
 import actionSyntax from "../images/actionSyntax.PNG";
 import ReducerSyntax from "../images/reducerSyntax.PNG";
 import storeSyntax from "../images/storeSyntax.PNG";
@@ -22,54 +22,59 @@ export default function ReduxBasics(){
         <>
             <h1>Welcome to Redux Tutorial</h1>
             <h3>Redux Introduction</h3>
-            <dl>
-                <dt><b>Definition</b></dt>
-                <dd>A predictable state container for react apps.</dd>
-                <br />
-                <dt><b>Redux Terminology</b></dt>
-                <dd><b>1.Actions</b>
-                    <ul>
-                        <li>It is an object which acts as an event to change state value</li>
-                        <li>Syntax: <img src={actionSyntax} alt="actionsyntax"/></li>
-                    </ul>
-                </dd>
-                <br></br>
-                <dd><b>2.reducer</b>
-                    <ul>
-                        <li>It is method which is used to update stateValue .It Looks like AddEventistener</li>
-                        <li>Syntax: <img src={ReducerSyntax} alt="reducersyntax"/></li>
-                    </ul>
-                </dd>
-                <br></br>
-                <dd><b>3.Store</b>
-                    <ul>
-                        <li>Like Name itself is used to store global state object and reducers</li>
-                        <li>Syntax: <img src={storeSyntax} alt="storeSyntax"/></li>
-                    </ul>
-                </dd>
-                <dd><b>4.Dispatch</b>
-                    <ul>
-                        <li>It is used to triggering actions whenever event changes in UI. It Hits store with new actions to change newStateValue.</li>
-                        <li>Syntax: <img src={dispatchSyntax} alt="dispatchSyntax"/></li>
-                    </ul>
-                </dd>
-                <dd><b>5.Selector</b>
-                    <ul>
-                        <li>It is used to store each piece of state value.</li>
-                        <li>Syntax: <img src={selectorSyntax} alt="selecorSyntax"/></li>
-                    </ul>
-                </dd>
-                <dd><b>6.States</b>
-                    <ul>
-                        <li>In Redux, State are read only variable.</li>
-                        <li>State value should be immutable(Not changing values).</li>
-                        <li>using Spread operator (...objName) we can take copy of exisiting state and update it to new state.</li>
-                    </ul>
-                </dd>
-            </dl>
-            <br></br>
-            <h3>Simple Redux Flow Diagram</h3>
-            <img height="500px" src={reduxFlowDiagram} alt="reduxFlowDiagram"/>
+            <div className="flex-body">
+                <div className="flex-left-content">
+                    <dl>
+                        <dt><b>Definition</b></dt>
+                        <dd>A predictable state container for react apps.</dd>
+                        <br />
+                        <dt><b>Redux Terminology</b></dt>
+                        <dd><b>1.Actions</b>
+                            <ul>
+                                <li>It is an object which acts as an event to change state value</li>
+                                <li>Syntax: <img src={actionSyntax} alt="actionsyntax"/></li>
+                            </ul>
+                        </dd>
+                        <br></br>
+                        <dd><b>2.reducer</b>
+                            <ul>
+                                <li>It is method which is used to update stateValue .It Looks like AddEventistener</li>
+                                <li>Syntax: <img src={ReducerSyntax} alt="reducersyntax"/></li>
+                            </ul>
+                        </dd>
+                        <br></br>
+                        <dd><b>3.Store</b>
+                            <ul>
+                                <li>Like Name itself is used to store global state object and reducers</li>
+                                <li>Syntax: <img src={storeSyntax} alt="storeSyntax"/></li>
+                            </ul>
+                        </dd>
+                        <dd><b>4.Dispatch</b>
+                            <ul>
+                                <li>It is used to triggering actions whenever event changes in UI. It Hits store with new actions to change newStateValue.</li>
+                                <li>Syntax: <img src={dispatchSyntax} alt="dispatchSyntax"/></li>
+                            </ul>
+                        </dd>
+                        <dd><b>5.Selector</b>
+                            <ul>
+                                <li>It is used to store each piece of state value.</li>
+                                <li>Syntax: <img src={selectorSyntax} alt="selecorSyntax"/></li>
+                            </ul>
+                        </dd>
+                        <dd><b>6.States</b>
+                            <ul>
+                                <li>In Redux, State are read only variable.</li>
+                                <li>State value should be immutable(Not changing values).</li>
+                                <li>using Spread operator (...objName) we can take copy of exisiting state and update it to new state.</li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </div>
+                <div className="flex-right-content">
+                    <h3>Simple Redux Flow Diagram</h3>
+                    <img height="500px" src={reduxFlowDiagram} alt="reduxFlowDiagram"/>
+                </div>
+            </div>            
             <br></br>
             <h3>React Redux</h3>
             <dl>
@@ -126,7 +131,6 @@ export default function ReduxBasics(){
                     </ul>
                 </dd>
             </dl>
-            <EmployeeDetails />
         </>
     )
 }
