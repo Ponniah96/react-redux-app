@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-redux-app/static/css/main.960a8132.css",
-    "main.js": "/react-redux-app/static/js/main.54a3ff89.js",
+    "main.js": "/react-redux-app/static/js/main.1fdf145a.js",
     "static/media/ReduxDataFlowDiagram.gif": "/react-redux-app/static/media/ReduxDataFlowDiagram.49fa8c3968371d9ef6f2.gif",
     "static/media/dispatchSyntax.PNG": "/react-redux-app/static/media/dispatchSyntax.4a63ec8378b87bc95655.PNG",
     "static/media/storeSyntax.PNG": "/react-redux-app/static/media/storeSyntax.5e84591caaf88a85bed6.PNG",
@@ -14,10 +14,10 @@
     "static/media/selectorSyntax.PNG": "/react-redux-app/static/media/selectorSyntax.03d99f2b96f7e24833b2.PNG",
     "index.html": "/react-redux-app/index.html",
     "main.960a8132.css.map": "/react-redux-app/static/css/main.960a8132.css.map",
-    "main.54a3ff89.js.map": "/react-redux-app/static/js/main.54a3ff89.js.map"
+    "main.1fdf145a.js.map": "/react-redux-app/static/js/main.1fdf145a.js.map"
   },
   "entrypoints": [
     "static/css/main.960a8132.css",
-    "static/js/main.54a3ff89.js"
+    "static/js/main.1fdf145a.js"
   ]
 }
