@@ -1,0 +1,1 @@
+export const ARRAY_OF_OBJECTS = "ARRAY_OF_OBJECTS";

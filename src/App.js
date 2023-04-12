@@ -5,6 +5,7 @@ import store from "./store";
 import ReduxBasics from "./Basics/basics";
 import HelloWorld from "./reduxExamples/1.Introduction/1.HelloWorld";
 import PersonalDetails from "./reduxExamples/1.Introduction/2.DataTypes";
+import JsonObjects from "./reduxExamples/1.Introduction/3.JSONObjects";
 import EmployeeDetails from "./EmployeeDetails/EmployeeDetails";
 export default function App(){
     return(
@@ -21,8 +22,9 @@ export default function App(){
                                 <li>
                                     <a className="top-nav-bar-links">Basic Examples</a>
                                     <div className="top-nav-dropdown"  style={{"display":"none"}}>
-                                        <Link className="top-nav-dropdown-links" to="/hello-world">Hello World</Link>
-                                        <Link className="top-nav-dropdown-links" to="/personal-details">Personal Details</Link>
+                                        <Link className="top-nav-dropdown-links" to="/hello-world">Strings</Link>
+                                        <Link className="top-nav-dropdown-links" to="/personal-details">Objects</Link>
+                                        <Link className="top-nav-dropdown-links" to="/array-of-objects">Array of Objects</Link>
                                     </div>
                                 </li>
                                 <li>
@@ -39,6 +41,7 @@ export default function App(){
                             <Route exact path="/react-redux-app" element={<ReduxBasics />}></Route>
                             <Route path="/hello-world" element={<HelloWorld/>}></Route>
                             <Route path="/personal-details" element={<PersonalDetails/>}></Route>
+                            <Route path="/array-of-objects" element={<JsonObjects/>}></Route>
                             <Route path="/crud-operation" element={<EmployeeDetails/>}></Route>
                         </Routes>
                     </div> 
